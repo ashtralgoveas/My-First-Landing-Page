@@ -1,0 +1,135 @@
+body {
+  font-family: "Avenir Next";
+ background-color: black;
+
+}
+li {
+  list-style: none;
+}
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+
+}
+.header li:hover{
+  background-color: darkblue;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 40px 10px;
+}
+
+.copy-container h1 {
+  font-size: 190px;
+  text-align: center;
+  color: #26d0c9;
+  font-family:Comic Sans MS, Comic Sans, cursive;
+  margin-top: 10px;
+  height:110px;
+}
+.copy-container h2 {
+  font-size: 20px;
+  text-align: center;
+   color:white;
+   font-family: Comic Sans MS, Comic Sans, cursive;
+   height:100px;
+}
+.copy-container h3 {
+  font-size: 50px;
+  text-align: center;
+   color:white;
+   font-family: cursive;
+   height:30px;
+}
+.copy-container p{
+   font-size: 25px;
+  text-align: center;
+   color:red;
+   font-family: cursive;
+   height:10px;
+}
+.enter{
+  
+  background-color:lightblue;
+  color: white;
+  cursor: pointer;
+   box-shadow:0px 12px blue;
+border-radius: 10% / 50%;
+width:10%;
+margin-left: 600px;
+ }
+.enter:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.contents {
+  height: 300px;
+  margin-top: 1px;
+}
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+ }
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+img{
+	width: 200%;
+	margin:20px 80px;
+}
+
+.contact-form {
+  padding-top: 700px;
+  color:white;
+}
+.contact-form h3{
+	font: left;
+}
+
+input,textarea{
+ width: 400px;
+ margin-top: 10px;
+ margin-bottom: 30px;
+ padding: 20px;
+ font-size: 18px;
+
+
+  border:1px solid green;
+}
+
+.contact-submit{
+  background-color:lightgreen;
+  color: white;
+  cursor: pointer;
+   box-shadow:0px 12px green;
+border-radius: 10% / 50%;
+ }
+.contact-submit:active{
+  box-shadow: none;
+  position: relative;
+top: 7px;
+}
+footer{
+ 
+  color:white;
+  font-size: 20px;
+  background-color:#26d0c9 ;
+  height:70px;
+}
